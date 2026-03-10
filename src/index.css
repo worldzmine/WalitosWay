@@ -22,7 +22,7 @@
   }
   
   .feature-card {
-    @apply bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-200 group;
+    @apply bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-200;
   }
   
   .section-padding {
