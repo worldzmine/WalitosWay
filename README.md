@@ -34,4 +34,4 @@ Stack: React 18, TypeScript, Vite, Tailwind CSS, and Lucide React. Commands are 
 
 ## Repository housekeeping
 
-The repository currently includes generated `node_modules/` and `dist/` directories. They are not source code and should be removed from tracking in a separate cleanup. Adding them to `.gitignore` prevents new untracked files from being added; it does not remove files already committed.
+Generated `node_modules/` and `dist/` directories are excluded from tracking. Install dependencies with `npm ci` and regenerate the production bundle with `npm run build`. Older commits retain the original generated files in history.
